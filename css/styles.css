@@ -1,0 +1,65 @@
+html{
+	font-size: 62.5% !important;
+}
+ul,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+*,body{
+	font-size: 1.6rem !important;
+	font-family: helvetica;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+
+/*index.html styles*/
+#showcase{
+	padding: 1rem;
+	height: 96.6vh;
+	background-image: url(../images/bg2.jpg);
+	position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#showcase h1{
+	font-size: 2.8rem !important;
+	color: #fff;
+}
+#showcase #info{
+	padding:2rem;
+	margin-top: 3rem;
+	background-color: #ddd;
+	width: 30%;
+	opacity: 0.45;
+}
+#showcase #info h2{
+	font-size: 1.8rem !important;
+	padding: 0.3rem;
+}
+#showcase #info p{
+	font-size: 1.6rem !important;
+	line-height: 2rem;
+	font-weight: 400;
+}
+#showcase #info ul{
+	list-style: none;
+	margin-top: 2rem;
+}
+#showcase #info ul li{
+	display: inline;
+	padding: 1rem;
+}
+#showcase #info ul li a{
+	/*color: #000 !important;*/
+	text-decoration: none;
+	padding: 0.5rem;
+
+}
+#showcase #info ul li a i{
+	font-size: 2.4rem !important;
+}
