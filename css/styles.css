@@ -18,6 +18,45 @@ ul,h1,h2,h3,h4,h5,h6{
 }
 
 /*index.html styles*/
+header{
+	width: 100%
+	margin-bottom:1rem;
+	padding: 1rem;
+}
+header #logo{
+	width: 33.3%;
+	float: left;
+	box-sizing: border-box;
+}
+header nav{
+	width: 66.6%;
+	float: right;
+	box-sizing: border-box;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: right;
+	margin-right: 2rem;
+}
+header nav ul li a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 1.8rem !important;
+	color:#010508;
+}
+header nav ul li a:hover{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 1.8rem !important;
+	color:#010508;
+	border-bottom: 0.1rem solid #000;
+}
+header #logo h1{
+	font-size: 2.8rem !important;
+	color: #fff;
+}
 #showcase{
 	padding: 1rem;
 	height: 96.6vh;
@@ -25,10 +64,6 @@ ul,h1,h2,h3,h4,h5,h6{
 	position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-#showcase h1{
-	font-size: 2.8rem !important;
-	color: #fff;
 }
 #showcase #info{
 	padding:2rem;
@@ -62,4 +97,14 @@ ul,h1,h2,h3,h4,h5,h6{
 }
 #showcase #info ul li a i{
 	font-size: 2.4rem !important;
+}
+/*About Styles*/
+#about{
+	height: 96.6vh;
+	padding: 1rem;
+	background-image: url(../images/fancytouchbg.jpg);
+	position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 }
